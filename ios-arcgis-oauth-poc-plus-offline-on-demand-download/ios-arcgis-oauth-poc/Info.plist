@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ESRI_API_KEY</key>
+	<string>$(ESRI_API_KEY)</string>
+	<key>OAUTH_APP_ID</key>
+	<string>$(OAUTH_APP_ID)</string>
+	<key>OAUTH_CLIENT_ID</key>
+	<string>$(OAUTH_CLIENT_ID)</string>
+	<key>OAUTH_REDIRECT_URI</key>
+	<string>$(OAUTH_REDIRECT_URI)</string>
+	<key>OAUTH_SCHEME</key>
+	<string>$(OAUTH_SCHEME)</string>
+	<key>OAUTH_SCOPE</key>
+	<string>$(OAUTH_SCOPE)</string>
+	<key>PROXY_BASE_URL</key>
+	<string>https://${PROXY_BASE_URL}</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

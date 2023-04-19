@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0AAC5929E9E50900F83103 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AAC5829E9E50900F83103 /* Utils.swift */; };
+		AE0AAC5B29ECFC0600F83103 /* OfflineMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AAC5A29ECFC0600F83103 /* OfflineMapService.swift */; };
+		AE0AAC5D29ED9BAF00F83103 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AAC5C29ED9BAF00F83103 /* Constants.swift */; };
+		AE0AAC5F29EDB51100F83103 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AAC5E29EDB51100F83103 /* MapService.swift */; };
+		AE0AAC6829EDED0400F83103 /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0AAC6729EDED0400F83103 /* OAuthService.swift */; };
+		AE17CDE529E84C6E00AF0C61 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE17CDE429E84C6E00AF0C61 /* FileManagerService.swift */; };
+		AE433CE029F031F6008F3A2D /* CO.vtpk in Resources */ = {isa = PBXBuildFile; fileRef = AE433CDF29F031F6008F3A2D /* CO.vtpk */; };
+		C72FDDCB29D91C630072DABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDDCA29D91C630072DABB /* AppDelegate.swift */; };
+		C72FDDCD29D91C630072DABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDDCC29D91C630072DABB /* SceneDelegate.swift */; };
+		C72FDDCF29D91C630072DABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72FDDCE29D91C630072DABB /* ViewController.swift */; };
+		C72FDDD229D91C630072DABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FDDD029D91C630072DABB /* Main.storyboard */; };
+		C72FDDD429D91C650072DABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72FDDD329D91C650072DABB /* Assets.xcassets */; };
+		C72FDDD729D91C650072DABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72FDDD529D91C650072DABB /* LaunchScreen.storyboard */; };
+		C776698129E14DA100092F81 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBCD7829E14A4E00BC4582 /* ConfigService.swift */; };
+		C7CFED2429D94AF200702382 /* Runtimecore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFED2229D94AF100702382 /* Runtimecore.xcframework */; };
+		C7CFED2529D94AF200702382 /* Runtimecore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFED2229D94AF100702382 /* Runtimecore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7CFED2629D94AF200702382 /* ArcGIS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFED2329D94AF200702382 /* ArcGIS.xcframework */; };
+		C7CFED2729D94AF200702382 /* ArcGIS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C7CFED2329D94AF200702382 /* ArcGIS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7CFED2829D94AF200702382 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7CFED2729D94AF200702382 /* ArcGIS.xcframework in Embed Frameworks */,
+				C7CFED2529D94AF200702382 /* Runtimecore.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE0AAC5829E9E50900F83103 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AE0AAC5A29ECFC0600F83103 /* OfflineMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMapService.swift; sourceTree = "<group>"; };
+		AE0AAC5C29ED9BAF00F83103 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE0AAC5E29EDB51100F83103 /* MapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		AE0AAC6729EDED0400F83103 /* OAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
+		AE17CDE429E84C6E00AF0C61 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		AE433CDF29F031F6008F3A2D /* CO.vtpk */ = {isa = PBXFileReference; lastKnownFileType = file; path = CO.vtpk; sourceTree = "<group>"; };
+		C72FDDC729D91C630072DABB /* ios-arcgis-oauth-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-arcgis-oauth-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72FDDCA29D91C630072DABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C72FDDCC29D91C630072DABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C72FDDCE29D91C630072DABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C72FDDD129D91C630072DABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C72FDDD329D91C650072DABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C72FDDD629D91C650072DABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C72FDDD829D91C650072DABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72FDDDE29D91CA20072DABB /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		C7CFED2229D94AF100702382 /* Runtimecore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Runtimecore.xcframework; path = ../../../Library/SDKs/ArcGIS/Frameworks/Runtimecore.xcframework; sourceTree = "<group>"; };
+		C7CFED2329D94AF200702382 /* ArcGIS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ArcGIS.xcframework; path = ../../../Library/SDKs/ArcGIS/Frameworks/ArcGIS.xcframework; sourceTree = "<group>"; };
+		C7FBCD7829E14A4E00BC4582 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C72FDDC429D91C620072DABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CFED2629D94AF200702382 /* ArcGIS.xcframework in Frameworks */,
+				C7CFED2429D94AF200702382 /* Runtimecore.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0AAC6E29EE11DE00F83103 /* BaseMaps */ = {
+			isa = PBXGroup;
+			children = (
+				AE433CDF29F031F6008F3A2D /* CO.vtpk */,
+			);
+			path = BaseMaps;
+			sourceTree = "<group>";
+		};
+		C72FDDBE29D91C620072DABB = {
+			isa = PBXGroup;
+			children = (
+				C72FDDC929D91C630072DABB /* ios-arcgis-oauth-poc */,
+				C72FDDC829D91C630072DABB /* Products */,
+				C7CFED2129D94AF100702382 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C72FDDC829D91C630072DABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72FDDC729D91C630072DABB /* ios-arcgis-oauth-poc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C72FDDC929D91C630072DABB /* ios-arcgis-oauth-poc */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AAC6E29EE11DE00F83103 /* BaseMaps */,
+				C72FDDCA29D91C630072DABB /* AppDelegate.swift */,
+				C7FBCD7829E14A4E00BC4582 /* ConfigService.swift */,
+				C72FDDCC29D91C630072DABB /* SceneDelegate.swift */,
+				C72FDDCE29D91C630072DABB /* ViewController.swift */,
+				C72FDDD029D91C630072DABB /* Main.storyboard */,
+				C72FDDD329D91C650072DABB /* Assets.xcassets */,
+				C72FDDD529D91C650072DABB /* LaunchScreen.storyboard */,
+				C72FDDD829D91C650072DABB /* Info.plist */,
+				C72FDDDE29D91CA20072DABB /* Secrets.xcconfig */,
+				AE17CDE429E84C6E00AF0C61 /* FileManagerService.swift */,
+				AE0AAC5829E9E50900F83103 /* Utils.swift */,
+				AE0AAC5A29ECFC0600F83103 /* OfflineMapService.swift */,
+				AE0AAC5C29ED9BAF00F83103 /* Constants.swift */,
+				AE0AAC5E29EDB51100F83103 /* MapService.swift */,
+				AE0AAC6729EDED0400F83103 /* OAuthService.swift */,
+			);
+			path = "ios-arcgis-oauth-poc";
+			sourceTree = "<group>";
+		};
+		C7CFED2129D94AF100702382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CFED2329D94AF200702382 /* ArcGIS.xcframework */,
+				C7CFED2229D94AF100702382 /* Runtimecore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C72FDDC629D91C620072DABB /* ios-arcgis-oauth-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72FDDDB29D91C650072DABB /* Build configuration list for PBXNativeTarget "ios-arcgis-oauth-poc" */;
+			buildPhases = (
+				C72FDDC329D91C620072DABB /* Sources */,
+				C72FDDC429D91C620072DABB /* Frameworks */,
+				C72FDDC529D91C620072DABB /* Resources */,
+				C7CFED2829D94AF200702382 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-arcgis-oauth-poc";
+			productName = "ios-arcgis-ui-elems-poc";
+			productReference = C72FDDC729D91C630072DABB /* ios-arcgis-oauth-poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C72FDDBF29D91C620072DABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C72FDDC629D91C620072DABB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C72FDDC229D91C620072DABB /* Build configuration list for PBXProject "ios-arcgis-oauth-poc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C72FDDBE29D91C620072DABB;
+			productRefGroup = C72FDDC829D91C630072DABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C72FDDC629D91C620072DABB /* ios-arcgis-oauth-poc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C72FDDC529D91C620072DABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE433CE029F031F6008F3A2D /* CO.vtpk in Resources */,
+				C72FDDD729D91C650072DABB /* LaunchScreen.storyboard in Resources */,
+				C72FDDD429D91C650072DABB /* Assets.xcassets in Resources */,
+				C72FDDD229D91C630072DABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C72FDDC329D91C620072DABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE17CDE529E84C6E00AF0C61 /* FileManagerService.swift in Sources */,
+				C776698129E14DA100092F81 /* ConfigService.swift in Sources */,
+				AE0AAC5B29ECFC0600F83103 /* OfflineMapService.swift in Sources */,
+				C72FDDCF29D91C630072DABB /* ViewController.swift in Sources */,
+				C72FDDCB29D91C630072DABB /* AppDelegate.swift in Sources */,
+				C72FDDCD29D91C630072DABB /* SceneDelegate.swift in Sources */,
+				AE0AAC5929E9E50900F83103 /* Utils.swift in Sources */,
+				AE0AAC6829EDED0400F83103 /* OAuthService.swift in Sources */,
+				AE0AAC5D29ED9BAF00F83103 /* Constants.swift in Sources */,
+				AE0AAC5F29EDB51100F83103 /* MapService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C72FDDD029D91C630072DABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72FDDD129D91C630072DABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C72FDDD529D91C650072DABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72FDDD629D91C650072DABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C72FDDD929D91C650072DABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72FDDDE29D91CA20072DABB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C72FDDDA29D91C650072DABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72FDDDE29D91CA20072DABB /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C72FDDDC29D91C650072DABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-arcgis-oauth-poc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcelenergy.gasfee.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C72FDDDD29D91C650072DABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-arcgis-oauth-poc/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcelenergy.gasfee.development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C72FDDC229D91C620072DABB /* Build configuration list for PBXProject "ios-arcgis-oauth-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72FDDD929D91C650072DABB /* Debug */,
+				C72FDDDA29D91C650072DABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72FDDDB29D91C650072DABB /* Build configuration list for PBXNativeTarget "ios-arcgis-oauth-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72FDDDC29D91C650072DABB /* Debug */,
+				C72FDDDD29D91C650072DABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C72FDDBF29D91C620072DABB /* Project object */;
+}
